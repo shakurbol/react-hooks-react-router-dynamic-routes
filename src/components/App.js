@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Route, Switch } from "react-router-dom";
 import NavBar from "./NavBar";
-import MoviesPage from "./MoviesPage";
+import MoviesPage from "/.MoviePage"
 
 function App() {
   const [movies, setMovies] = useState([
@@ -21,6 +21,7 @@ function App() {
           <div>Home</div>
         </Route>
       </Switch>
+     
     </div>
   );
 }
